@@ -219,7 +219,7 @@ map.on('singleclick', function(evt) {
 
 
 var geocoder = new Geocoder('nominatim', {
-  provider: 'osm',
+  provider: 'google',
   lang: 'zh-TW',
   placeholder: '搜尋 ...',
   limit: 5,
