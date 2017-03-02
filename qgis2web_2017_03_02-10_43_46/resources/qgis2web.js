@@ -223,6 +223,7 @@ var geocoder = new Geocoder('nominatim', {
   lang: 'zh-TW',
   placeholder: '搜尋 ...',
   limit: 5,
+  countrycodes: 'TW',
   keepOpen: true
 });
 map.addControl(geocoder);
